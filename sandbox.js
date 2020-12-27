@@ -46,15 +46,24 @@
 
 // console.log(saleProducts, products)
 
-// reducemethod how many times did Lewandowski score more than 3 or more goals per game? 
+// reduce method how many times did Lewandowski score more than 3 or more goals per game? 
 
-const goalsScoredByLewandowski = [ 3, 2, 1, 1, 0, 5, 4, 3 ];
+// const goalsScoredByLewandowski = [ 3, 2, 1, 1, 0, 5, 4, 3 ];
 
-const threeOrMoreGoalsPerGame = goalsScoredByLewandowski.reduce((acc, curr) => {
-    if (curr >= 3) {
-        acc++;
-    }
-    return acc;
-}, 0);
+// const threeOrMoreGoalsPerGame = goalsScoredByLewandowski.reduce((acc, curr) => {
+//     if (curr >= 3) {
+//         acc++;
+//     }
+//     return acc;
+// }, 0);
 
-console.log(threeOrMoreGoalsPerGame);
+// console.log(threeOrMoreGoalsPerGame);
+
+// find method What is the highest number of assists Neymar gave?
+
+const assistsByNeymar = [ 0, 1, 2, 3, 0, 4, 1 ];
+
+const highestNumberOfAssistsByNeymar = assistsByNeymar.find(assists => assists > 3 );
+
+console.log(highestNumberOfAssistsByNeymar);
+
