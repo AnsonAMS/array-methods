@@ -69,8 +69,17 @@
 
 // sort method with strings
 
-const names = [ "Sam Flynn", "Kevin Flynn", "Quorra", "CLU", "Rinzler", "Gem" ];
+// const names = [ "Sam Flynn", "Kevin Flynn", "Quorra", "CLU", "Rinzler", "Gem" ];
 
-const sortedNames = names.sort(); 
+// const sortedNames = names.sort(); 
 
-console.log(sortedNames);
+// console.log(sortedNames);
+
+// sort method with numbers from lowest to highest number
+
+const savesPerGameByNeuer = [ 3, 9, 8, 2, 0, 5, 7, 3, 2, 0, 1, 4, 3, 1 ];
+
+const sortedSavesPerGameByNeuer = savesPerGameByNeuer.sort();
+
+console.log(sortedSavesPerGameByNeuer);
+
