@@ -61,9 +61,16 @@
 
 // find method What is the highest number of assists Neymar gave?
 
-const assistsByNeymar = [ 0, 1, 2, 3, 0, 4, 1 ];
+// const assistsByNeymar = [ 0, 1, 2, 3, 0, 4, 1 ];
 
-const highestNumberOfAssistsByNeymar = assistsByNeymar.find(assists => assists > 3 );
+// const highestNumberOfAssistsByNeymar = assistsByNeymar.find(assists => assists > 3 );
 
-console.log(highestNumberOfAssistsByNeymar);
+// console.log(highestNumberOfAssistsByNeymar);
 
+// sort method with strings
+
+const names = [ "Sam Flynn", "Kevin Flynn", "Quorra", "CLU", "Rinzler", "Gem" ];
+
+const sortedNames = names.sort(); 
+
+console.log(sortedNames);
